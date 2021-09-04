@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.kodi.maintenance" name="Kodi Maintenance Tool" version="0.1" provider-name="gloug">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>linux</platform>
+        <summary lang="en">Kodi Maintenance Tool</summary>
+        <description lang="en">Kodi plugin that offers simple maintenance tools and scripts.</description>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
